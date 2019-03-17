@@ -48,5 +48,10 @@ $cref = \&print_hash;
 # Function call using reference.
 &$cref();
 
+# Passing Arguments to a Subroutine : arguments are accessible using the special array '@_'
 
-# Passing Arguments to a Subroutine : arguments are accessible using the special array '    @_'
+# Matching a string pattern
+$string =~ m/$regexp/
+
+#Replacing a string value
+$y =~ s/cat/dog/;
